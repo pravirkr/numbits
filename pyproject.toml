@@ -5,21 +5,20 @@ build-backend = "scikit_build_core.build"
 
 [project]
 name = "numbits"
-version = "0.0.3"
+version = "0.0.4"
 description="Pack and unpack 1, 2 and 4 bit data to/from 8-bit numpy arrays."
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{ name = "Danny Price", email = "dancpr@berkeley.edu" }]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = ["numpy"]
 classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
   "Topic :: Scientific/Engineering :: Astronomy",
 ]
 

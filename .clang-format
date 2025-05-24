@@ -1,5 +1,12 @@
 ---
-Language: Cpp
-BasedOnStyle:  LLVM
-ColumnLimit:     80
+BasedOnStyle: LLVM
+IndentWidth: 4
 ---
+Language: Cpp
+AccessModifierOffset: -4
+AlignConsecutiveAssignments:
+  Enabled: true
+BinPackParameters: false
+DerivePointerAlignment: false
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Left
